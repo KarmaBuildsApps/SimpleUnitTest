@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Simple Unit Test</string>
+    <string name="login_user_name">User Name</string>
+    <string name="login_password">User Password</string>
+    <string name="login_bt_text">Login</string>
+    <string name="login_user_name_error">User name is invalid username </string>
+    <string name="login_password_error">Password is invalid password</string>
+    <string name="login_success_text">You are login successfully</string>
+    <string name="login_fail_error">Login is unsuccess. Please check your username and password</string>
+    <string name="calculator_number1">Number Input 1</string>
+    <string name="calculator_default_value">0</string>
+    <string name="calculator_number2">Input Number 2</string>
+    <string name="calculator_operation">Operations:</string>
+    <string name="calculator_operation_add">Add</string>
+    <string name="calculator_operation_sub">Subtract</string>
+    <string name="calculator_operation_multiply">Multiply</string>
+    <string name="calculator_operation_divide">Divide</string>
+    <string name="calculator_result_title">Result</string>
+    <string name="calculator_button_text">Calculate</string>
+    <string name="calculator_entry_error">Invalid entry</string>
+    <string name="calculator_entry_empty">Field can\'t be empty</string>
+    <string name="calculator_addition_error">Addition Operation Is Incorrect</string>
+    <string name="calculator_operation_error">Correct Operation is not performed</string>
+    <string name="calculator_denominator_error">Denominator Value can\'t be 0</string>
+</resources>
