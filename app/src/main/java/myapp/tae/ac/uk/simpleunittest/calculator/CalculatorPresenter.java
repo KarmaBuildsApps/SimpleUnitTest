@@ -40,6 +40,11 @@ public class CalculatorPresenter {
 
         Operation operation = view.getOperation();
 
+        if (operation == Operation.EMPTY) {
+            view.showOperationNotSelectedError(R.string.calculator_operation_not_selected);
+            return;
+        }
+
         if (operation == Operation.DIVIDE && Double.parseDouble(sField2Value) == 0.0) {
             view.showDenominatorError(R.string.calculator_denominator_error);
             return;

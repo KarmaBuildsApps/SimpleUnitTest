@@ -26,4 +26,6 @@ public interface CalculatorView {
     void showDenominatorError(int resId);
 
     void setResult(String s);
+
+    void showOperationNotSelectedError(int resId);
 }

@@ -66,6 +66,16 @@ public class CalculatorPresenterTest {
     }
 
     @Test
+    public void displayErrorWhenOperationIsNotSelected() throws Exception {
+        when(view.getInputField1Value()).thenReturn("2");
+        when(view.getInputField2Value()).thenReturn("3.3");
+        when(view.getOperation()).thenReturn(Operation.EMPTY);
+        calPresenter.onCalculateButtonClicked();
+
+        verify(view).showOperationNotSelectedError(R.string.calculator_operation_not_selected);
+    }
+
+    @Test
     public void checkIfAdditionIsPerformedCorrectly() throws Exception {
         when(view.getInputField1Value()).thenReturn("2");
         when(view.getInputField2Value()).thenReturn("3.3");

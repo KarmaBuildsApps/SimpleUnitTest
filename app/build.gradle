@@ -28,4 +28,7 @@ dependencies {
     repositories { jcenter() }
     dependencies { testCompile "org.mockito:mockito-core:1.+" }
     compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jayway.android.robotium:robotium:5.5.4'
+    compile 'com.googlecode.aic-expresso:aic-expresso:1.1.0'
+    compile 'io.selendroid:selendroid:0.17.0'
 }

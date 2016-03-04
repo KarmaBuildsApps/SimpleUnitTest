@@ -22,4 +22,5 @@
     <string name="calculator_addition_error">Addition Operation Is Incorrect</string>
     <string name="calculator_operation_error">Correct Operation is not performed</string>
     <string name="calculator_denominator_error">Denominator Value can\'t be 0</string>
+    <string name="calculator_operation_not_selected">Please Select Operation you want perform</string>
 </resources>

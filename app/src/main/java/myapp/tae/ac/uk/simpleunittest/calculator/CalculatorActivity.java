@@ -91,6 +91,8 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
             case R.id.rbDivision:
                 operation = Operation.DIVIDE;
                 break;
+            default:
+                operation = Operation.EMPTY;
         }
         return operation;
     }
@@ -108,5 +110,10 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
     @Override
     public void setResult(String s) {
         tvOperationResult.setText(s);
+    }
+
+    @Override
+    public void showOperationNotSelectedError(int resId) {
+        Snackbar.make(rgOperations, getString(resId), Snackbar.LENGTH_LONG).show();
     }
 }
